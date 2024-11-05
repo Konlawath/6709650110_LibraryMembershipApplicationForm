@@ -1,0 +1,20 @@
+.header {
+    background-color: purple;
+    height: 100px;
+}
+
+.content {
+    background-color: lightblue;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    background-color: rgb(208, 230, 173);
+    height: 200px;
+}
+    
+.footer {
+    background-color: rgb(222, 111, 26);
+    height: 100px;
+}
