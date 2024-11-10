@@ -14,10 +14,9 @@ body{
 .background{
     background-color: rgb(232, 232, 232);
     background-repeat: no-repeat;
-    width: 400px;
-    height: 450px;
-    padding: 20px;
-    text-align: center;
+    width: 600px;
+    height: 600px;
+    padding: 30px;
     border-radius: 5%;
     box-sizing: border-box;
     box-shadow: 1px 1px 10px 1px #8e8181;
@@ -27,38 +26,16 @@ body{
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
+    text-align: left;
     font-family: Nerko One;
 }
 
-form input{
-    border-radius: 10%;
-    box-sizing: border-box;
-    box-shadow: 1px 1px 10px 1px #ffffff;
-}
-
-.sign{
+footer{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    gap: 400px;
 }
 
-.sign a{
+footer a{
     text-decoration: none;
-}
-
-.login{
-    background-color: rgb(31, 96, 194);
-    box-sizing: border-box;
-    color: white;
-    width: 200px;
-    height: 30px;
-    border-radius: 10%;
-}
-
-.signup{
-    color: #2f4288;
-}
-
-.forgot{
-    color: rgb(202, 200, 200);
+    color: rgb(85, 112, 136);;
 }
