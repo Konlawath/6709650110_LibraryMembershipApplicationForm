@@ -12,25 +12,44 @@
             <header><h1>Information</h1></header>
             <form>
                 <label for="thname">Name (Thai)</label><br>
-                <input type="text" id="thname" name="thname"><br>
+                <input type="text" id="thname" name="thname"><br><br>
+                
                 <label for="engname">Name (Eng)</label><br>
-                <input type="text" id="engname" name="engname"><br>
+                <input type="text" id="engname" name="engname"><br><br>
+                
                 <label for="gender">Gender</label><br>
-                <input type="text" id="gender" name="gender"><br>
-                <label for="id"> Id </label><br>
-                <input type="number" id="id" name="id"><br>
-                <label for="faculty"> Faculty</label><br>
-                <input type="text" id="faculty" name="faculty"><br>
-                <label for="date">Date of birth</label><br>
-                <input type="date" id="date" name="date"><br>
-                <label for="book">Type of books of interest</label><br>
-                <input type="text" id="book" name="book"><br>
+                <input type="text" id="gender" name="gender" list="genders">
+                <datalist id="genders">
+                    <option value="Male">
+                    <option value="Female">
+                    <option value="Other">
+                </datalist><br><br>
 
-                <label for="news">Want to receive news and information about the library?</label><br>
+                <label for="id"> Id </label><br>
+                <input type="number" id="id" name="id"><br><br>
+                
+                <label for="faculty"> Faculty</label><br>
+                <input type="text" id="faculty" name="faculty"><br><br>
+                
+                <label for="date">Date of birth</label><br>
+                <input type="date" id="date" name="date"><br><br>
+                
+                <label for="book">Type of books of interest</label><br>
+                <input type="text" id="book" name="book" list="books">
+                <datalist id="books">
+                    <option value="Fantasy">
+                    <option value="Science fiction">
+                    <option value="Period novels">
+                    <option value="Horror">
+                    <option value="Romance novel">
+                    <option value="Mystery">
+                </datalist><br><br>
+
+                <label for="news">Do you want to receive news and information about the library?</label><br>
                 <input type="radio" id="news" name="news">
                 <label for="yes">Yes</label><br>
                 <input type="radio" id="news" name="news">
-                <label for="no">No</label><br>
+                <label for="no">No</label><br><br>
             </form>
 
             <footer>
